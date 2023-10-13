@@ -4,5 +4,5 @@ services:
   github:
     branch: main
     deploy_on_push: false
-    repo: fumblehool/sample-vite-react
+    repo: digitalocean/sample-vite-react
   name: sample-vite-react
