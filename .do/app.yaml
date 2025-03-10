@@ -4,5 +4,5 @@ services:
   github:
     branch: main
     deploy_on_push: false
-    repo: digitalocean/sample-vite-react
+    repo: startuptnt/sample-vite-react
   name: sample-vite-react
