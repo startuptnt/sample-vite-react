@@ -1,10 +1,8 @@
 import { Card, CardContent, Typography, Grid2, IconButton } from '@mui/material';
 import { Count, useListContext } from 'react-admin';
 import { Refresh } from '@mui/icons-material';
-import useInvestmentData from '../../providers/useInvestmentData';
 
 const StatusOfAccount = ({filter}) => {
-    //const { data, isLoading, refetch } = useInvestmentData(filter);
     const { data, isLoading, refetch } = useListContext();
     if (isLoading) return null;
     
